@@ -319,7 +319,20 @@
 
 	<section id="contact">
 		<div id="map">
-			<div id="gmap-wrap">
+
+					<script>
+		      var map;
+		      function initMap() {
+		        map = new google.maps.Map(document.getElementById('map'), {
+		          center: {lat: -34.397, lng: 150.644},
+		          zoom: 8
+		        });
+		      }
+		    </script>
+		    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0bQRM37N6XJeKpJXPzg9-pCTq69ybTxc&callback=initMap"
+		    async defer></script>
+		    
+			<!--<div id="gmap-wrap">
 	 			<div id="gmap"> 				
 	 			</div>	 			
 	    	</div>
