@@ -1,24 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!--may need to doctor this up a bit-->
-
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Homeless Planet</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/animate.css" rel="stylesheet">	
 	<link href="css/responsive.css" rel="stylesheet">
-<!--Firebase-->
-	<script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
-<!--JavaScript-->
-	<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
-	<script src="app.js"></script>
-<!-- Latest compiled and minified CSS -->
- <!--[if lt IE 9]>
+
+    <!--[if lt IE 9]>
 	    <script src="js/html5shiv.js"></script>
 	    <script src="js/respond.min.js"></script>
     <![endif]-->       
@@ -27,17 +21,10 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
 
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<!--CSS-->
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Homeless Planet</title>
-
-
-</head>
 <body>
-<header id="header" role="banner">		
+	<header id="header" role="banner">		
 		<div class="main-nav">
 			<div class="container">
 				<div class="header-top">
@@ -319,20 +306,7 @@
 
 	<section id="contact">
 		<div id="map">
-
-					<script>
-		      var map;
-		      function initMap() {
-		        map = new google.maps.Map(document.getElementById('map'), {
-		          center: {lat: -34.397, lng: 150.644},
-		          zoom: 8
-		        });
-		      }
-		    </script>
-		    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0bQRM37N6XJeKpJXPzg9-pCTq69ybTxc&callback=initMap"
-		    async defer></script>
-		    
-			<!--<div id="gmap-wrap">
+			<div id="gmap-wrap">
 	 			<div id="gmap"> 				
 	 			</div>	 			
 	    	</div>
@@ -391,7 +365,7 @@
     <footer id="footer">
         <div class="container">
             <div class="text-center">
-                <p> Copyright  &copy;2016<a target="_blank" href="http://www.ucfcodingbootcamp.com"> Homeless Planet </a>All Rights Reserved. <br> Designed by <a target="_blank" href="http://www.ucfcodingbootcamp.com">Make Your Way</a></p>                
+                <p> Copyright  &copy;2016<a target="_blank" href="http://www.ucfcodingbootcamp.com/landing2/?mkwid=vtJdWgZG_dc&pkw=ucf%20boot%20camp&pcrid=89283499046&pmt=e&utm_source=google&utm_medium=cpc&utm_campaign=%5BS%5D+Brand+-+Exact&utm_term=ucf%20boot%20camp&utm_content=89283499046&s=google&k=ucf%20boot%20camp&gclid=CjwKEAjwyPW5BRCC3JaM7qfW_FwSJACM3jz9GVVpOB21q3ee3zuADyqvuO8tBlrFiOl3zpd09dQvohoCFaXw_wcB/"> Homeless Planet </a>All Rights Reserved. <br> Designed by <a target="_blank" href="http://www.ucfcodingbootcamp.com/landing2/?mkwid=vtJdWgZG_dc&pkw=ucf%20boot%20camp&pcrid=89283499046&pmt=e&utm_source=google&utm_medium=cpc&utm_campaign=%5BS%5D+Brand+-+Exact&utm_term=ucf%20boot%20camp&utm_content=89283499046&s=google&k=ucf%20boot%20camp&gclid=CjwKEAjwyPW5BRCC3JaM7qfW_FwSJACM3jz9GVVpOB21q3ee3zuADyqvuO8tBlrFiOl3zpd09dQvohoCFaXw_wcB/">Make Your Way</a></p>                
             </div>
         </div>
     </footer>
@@ -406,6 +380,8 @@
     <script type="text/javascript" src="js/coundown-timer.js"></script>
     <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
     <script type="text/javascript" src="js/jquery.nav.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/main.js"></script> 
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0bQRM37N6XJeKpJXPzg9-pCTq69ybTxc&callback=initMap"
+    async defer></script> 
 </body>
 </html>
