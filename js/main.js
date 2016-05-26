@@ -75,7 +75,7 @@ jQuery(function($) {'use strict',
       var map;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
+          center: {lat: 28.54186248779, lng: -81.384094238281},
           zoom: 8
         });
       }
