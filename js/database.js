@@ -2,6 +2,7 @@
 var homelessplanet = new Firebase("https://homelessplanet.firebaseio.com/");
 
 //User clicks on Manage your Nights
+$('')
 //Takes to Google Maps api page
 //Shows user a Google map with Shelters listed with red markers
 //If user clicks on the red marker it shows the user a box with information about that Shelter
