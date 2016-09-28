@@ -69,6 +69,19 @@ jQuery(function($) {'use strict',
 
 
 // Google Map Customization
+
+
+
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 28.54186248779, lng: -81.384094238281},
+          zoom: 8
+        });
+      }
+  
+
+
 (function(){
 
 	var map;
